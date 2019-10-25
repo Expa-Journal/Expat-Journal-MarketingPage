@@ -303,11 +303,80 @@ template {
 [hidden] {
   display: none;
 }
-footer {
-  width: 98%;
-  margin: 1%;
-  background-color: gray;
+.bg-image {
+  background-image: url(../img/typewriter.png);
+  height: 50vh;
 }
-footer a {
-  text-decoration: none;
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container .nav-bar {
+  display: flex;
+  width: 100%;
+}
+.container .nav-bar .logo {
+  width: 33%;
+}
+.container .nav-bar nav {
+  width: 33%;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.container .nav-bar nav a {
+  padding-right: 25px;
+  color: white;
+}
+.container .nav-bar button {
+  width: 10%;
+  border-radius: 5%;
+  height: 30px;
+  background-color: lightseagreen;
+  margin-top: 10px;
+  margin-left: 15%;
+  color: white;
+}
+.container .header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .header-info h1 {
+  color: white;
+}
+.container .header-info p {
+  color: white;
+}
+.container .header-info button {
+  width: 33%;
+  border-radius: 5%;
+  background-color: lightseagreen;
+  color: white;
+  height: 50px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.expat-team {
+  width: 100%;
+  background: #ccc7aa;
+  margin-top: -2%;
+}
+.expat-team h2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.expat-team .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+}
+.expat-team .row figcaption {
+  text-align: center;
 }
